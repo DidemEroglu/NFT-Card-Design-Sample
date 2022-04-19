@@ -1,0 +1,149 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.nft-image {
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nft-images {
+    position: relative;
+}
+
+.prev-image {
+    position: absolute;
+    top: 0;
+    bottom: 280px;
+    left: 1px;
+    padding: 130px 125px 122px 125px;
+    opacity: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.prev-image:hover {
+    opacity: 1;
+    background-color: rgba(0, 255, 247, 0.434);
+}
+
+.main-container {
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    width: 300px;
+    margin: 100px auto 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px 3px violet, 0 7px 15px 7px cyan, 0 10px 20px 10px white;
+}
+
+.title {
+    color: white;
+    font-weight: 400;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 0.01ch;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 15px;
+    width: 280px;
+    text-align: left;
+}
+
+.price {
+    display: inline-block;
+    color: hsl(178, 100%, 50%);
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 10px;
+    vertical-align: middle;
+
+}
+
+.time {
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+
+}
+
+.eth-logo {
+    vertical-align: middle;
+    width: 10px;
+    margin-right: 3px;
+}
+
+.time-logo {
+    vertical-align: middle;
+    width: 14px;
+
+}
+
+.price-info {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.time-info {
+    display: inline-block;
+    width: 217px;
+    text-align: right;
+    vertical-align: middle;
+
+}
+
+hr{
+    color: hsl(215, 32%, 27%);
+    size: 1px;
+    border: 1px solid;
+}
+
+.creator {
+    display: inline-block;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+  margin-top: 15px;
+
+}
+
+.creator-name {
+    cursor: pointer;
+    transition: color 0.15s;
+    color: white;
+  }
+  .creator-name:hover {
+    color:hsl(178, 100%, 50%);
+  }
+  
+span {
+    color: hsl(215, 51%, 70%);
+  }
+
+  .creator-pic {
+    width: 30px;
+    border: solid; 
+    border-width: 1px;
+    border-radius: 100px;
+    border-color: hsl(0, 0%, 100%);
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  .attribution {
+      color: antiquewhite;
+      font-weight: 500;
+  }
